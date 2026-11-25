@@ -1,28 +1,28 @@
 class Trlctl < Formula
   desc "Scaffold and validate repositories that follow the therealm Argo CD layout"
   homepage "https://github.com/therealm-tech/trlctl"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/therealm-tech/trlctl/releases/download/v0.2.0/trlctl-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7800519f26d864da468df4a793af0b7798308d54428addf18a549a8f0f1bfb18"
+      url "https://github.com/therealm-tech/trlctl/releases/download/v0.3.0/trlctl-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9028acda169b7875f935b87505bafec75f79a682ac9d26f1114d22c12f6cbdb1"
     end
     on_intel do
-      url "https://github.com/therealm-tech/trlctl/releases/download/v0.2.0/trlctl-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7e3b20b3558f26e3d704d972d4a7a54cb4ff345daa91793edbb3e7771a73afc7"
+      url "https://github.com/therealm-tech/trlctl/releases/download/v0.3.0/trlctl-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4365ea53d12f9952b65327b451c387ca1a69caefbdbab325a73bdcba295c4763"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/therealm-tech/trlctl/releases/download/v0.2.0/trlctl-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "46d40b5d142bb33f4dc56ebfbbf011d4a5772bfc77f62433cd7c55729f6b10dc"
+      url "https://github.com/therealm-tech/trlctl/releases/download/v0.3.0/trlctl-0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5f5da8dd0ca7c67ccf0dd912fd207e6005db0f1485b6c9cd5132ede78f3d9e84"
     end
     on_intel do
-      url "https://github.com/therealm-tech/trlctl/releases/download/v0.2.0/trlctl-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "24a356fcc6e5addbb0f3bed908977f7a1f680eaba7d37c42157502d1c8724239"
+      url "https://github.com/therealm-tech/trlctl/releases/download/v0.3.0/trlctl-0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "53327d7ea0803f00db27fb7ca2db3bf04f2dac700a6d9b091b5a6c1b75a74f00"
     end
   end
 
